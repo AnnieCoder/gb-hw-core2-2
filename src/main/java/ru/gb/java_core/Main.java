@@ -11,6 +11,7 @@ public class Main {
 
         Random rand = new Random();
         String[][] array = new String[4][4];
+        // String[][] array = new String[5][7];
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
@@ -20,7 +21,7 @@ public class Main {
             }
         }
 
-        //array[2][2] = "error";
+        // array[5][2] = "error";
 
         try {
             try {
